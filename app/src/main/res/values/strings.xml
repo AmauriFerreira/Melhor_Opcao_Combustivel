@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Melhor Opção de Combustível</string>
+    <string name="enter_amount">Informe os valores na barra de rolagem</string>
+    <string name="tip1_percentage">Preço da Gasolina</string>
+    <string name="tip2_percentage">"Preço do Etanol  "</string>
+    <string name="totalLabelTextView">Melhor opção de combustivel</string>
+
+    <string name="variavel1">É melhor utilizar Etanol</string>
+    <string name="variavel2">É melhor utilizar  Gasolina</string>
+    <string name="varTextView1">R$ 5.0</string>
+    <string name="varTextView2">R$ 5.0</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="10"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/percent1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:hint="@string/tip1_percentage"
+        android:text="@string/tip1_percentage" />
+
+    <TextView
+        android:id="@+id/varTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:hint="@string/varTextView1"
+        android:text="@string/varTextView1" />
+
+
+
+    <SeekBar
+        android:id="@+id/precoGasolinaSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seekbar_height"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:max="1000"
+        android:progress="500" />
+
+
+    <TextView
+        android:id="@+id/percent2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:hint="@string/tip2_percentage"
+        android:text="@string/tip2_percentage"/>
+
+    <TextView
+        android:id="@+id/varTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:hint="@string/varTextView2"
+        android:text="@string/varTextView2"/>
+
+    <SeekBar
+        android:id="@+id/precoAlcoolSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seekbar_height"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:max="1000"
+        android:progress="500"/>
+
+    <TextView
+        android:id="@+id/totalLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:text="@string/totalLabelTextView" />
+
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@color/amount_background"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:hint="@string/enter_amount"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/enter_amount" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:layout_gravity="center|center_vertical"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/abastecer"/>
+
+</GridLayout>

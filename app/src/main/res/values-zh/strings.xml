@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">最佳燃油选项</string>
+    <string name="tip1_percentage">加索利纳大街</string>
+    <string name="tip2_percentage">乙醇价格</string>
+    <string name="enter_amount">在滚动条中输入值</string>
+    <string name="totalLabelTextView">最佳燃油选项</string>
+    <string name="variavel1">更好地利用乙醇</string>
+    <string name="variavel2">最好用汽油</string>
+    <string name="varTextView1">R$ 5.0</string>
+    <string name="varTextView2">R$ 5.0</string>
+
+</resources>

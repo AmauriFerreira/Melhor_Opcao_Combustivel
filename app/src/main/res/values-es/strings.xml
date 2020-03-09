@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">La mejor opción de combustible</string>
+    <string name="enter_amount">Ingrese los valores en la barra de desplazamiento</string>
+    <string name="tip1_percentage">"Precio de la gasolina "</string>
+    <string name="tip2_percentage">"Precio de etanol "</string>
+    <string name="totalLabelTextView">La mejor opción de combustible</string>
+    <string name="variavel2">Es mejor usar gasolina</string>
+    <string name="variavel1">Es mejor usar etanol</string>
+    <string name="varTextView1">R$ 5.0</string>
+    <string name="varTextView2">R$ 5.0</string>
+</resources>

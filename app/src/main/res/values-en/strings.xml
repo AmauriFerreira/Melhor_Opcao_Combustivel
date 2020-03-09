@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Best Fuel Option</string>
+    <string name="enter_amount">Enter the values in the scroll bar</string>
+    <string name="tip1_percentage">Petrol Price</string>
+    <string name="tip2_percentage">"Ethanol Price "</string>
+    <string name="totalLabelTextView">Best Fuel Option</string>
+
+    <string name="variavel1">It is better to use ethanol</string>
+    <string name="variavel2">It is better to use Gasoline</string>
+    <string name="varTextView1">R$ 5.0</string>
+    <string name="varTextView2">R$ 5.0</string>
+
+
+</resources>

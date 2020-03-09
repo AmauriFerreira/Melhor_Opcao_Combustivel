@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Amauri\\Downloads\\Melhor_Opcao_Combustivel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Amauri\\Downloads\\Melhor_Opcao_Combustivel\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,10,11,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,112,189,247,309,511,560,376,443",
+                        "endColumns": "53,75,56,60,63,47,47,65,66",
+                        "endOffsets": "106,183,241,303,368,554,603,437,505"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,185,242,303,367,415,463,529",
+                        "endColumns": "53,75,56,60,63,47,47,65,66",
+                        "endOffsets": "104,180,237,298,362,410,458,524,591"
+                    }
+                }
+            ]
+        }
+    ]
+}
