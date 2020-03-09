@@ -7,6 +7,7 @@ import android.text.TextWatcher;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView varTextView2;
     private double number1;
     private double number2;
+
+
+
+
 
 
     @Override
@@ -87,12 +92,15 @@ public class MainActivity extends AppCompatActivity {
             resultado.setText(R.string.variavel1);
             ImageView imageView=(ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.etanol);
+            Toast.makeText (this, "Versão final", Toast.LENGTH_SHORT).show();
 
         }else {
             resultado.setText(R.string.variavel2);;
             ImageView imageView=(ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.gasosa);
+            Toast.makeText (this, "Versão final", Toast.LENGTH_SHORT).show();
         }
+
 
     }
 
